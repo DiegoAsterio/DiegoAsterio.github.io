@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>resume</title>
+  <style>
+      code{white-space: pre-wrap;}
+      span.smallcaps{font-variant: small-caps;}
+      span.underline{text-decoration: underline;}
+      div.column{display: inline-block; vertical-align: top; width: 50%;}
+  </style>
+  <!--[if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <style type="text/css">
+  /*
+   * Copyright 2013 Christophe-Marie Duquesne <chmd@chmd.fr>
+   *
+   * CSS for making a resume with pandoc. Inspired by moderncv.
+   *
+   * This CSS document is delivered to you under the CC BY-SA 3.0 License.
+   * https://creativecommons.org/licenses/by-sa/3.0/deed.en_US
+   */
+  
+  /* Whole document */
+  body {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      max-width: 800px;
+      margin: auto;
+      background: #FFFFFF;
+      padding: 10px 10px 10px 10px;
+  }
+  
+  /* Title of the resume */
+  h1 {
+      font-size: 55px;
+      color: #757575;
+      text-align:center;
+      margin-bottom:15px;
+  }
+  h1:hover {
+      background-color: #757575;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Titles of categories */
+  h2 {
+      /* This is called "sectioncolor" in the ConTeXt stylesheet. */
+      color: #397249;
+  }
+  /* There is a bar just before each category */
+  h2:before {
+      content: "";
+      display: inline-block;
+      margin-right:1%;
+      width: 16%;
+      height: 10px;
+      /* This is called "rulecolor" in the ConTeXt stylesheet. */
+      background-color: #9CB770;
+  }
+  h2:hover {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Definitions */
+  dt {
+      float: left;
+      clear: left;
+      width: 17%;
+      /*font-weight: bold;*/
+  }
+  dd {
+      margin-left: 17%;
+  }
+  p {
+      margin-top:0;
+      margin-bottom:7px;
+  }
+  
+  /* Blockquotes */
+  blockquote {
+      text-align: center
+  }
+  
+  /* Links */
+  a {
+      text-decoration: none;
+      color: #397249;
+  }
+  a:hover, a:active {
+      background-color: #397249;
+      color: #FFFFFF;
+      text-decoration: none;
+      text-shadow: 1px 1px 1px #333;
+  }
+  
+  /* Horizontal separators */
+  hr {
+      color: #A6A6A6;
+  }
+  
+  table {
+      width: 100%;
+  }
+  </style>
+</head>
+<body>
+<h1 id="diego-asterio-de-zaballa">Diego Asterio de Zaballa</h1>
+<hr />
+<blockquote>
+<p>Enthousiastic undergraduate with a keen interest on machine learning and abstract reasoning.<br />
+<a href="mailto:diegoasterio.z@gmail.com" class="email">diegoasterio.z@gmail.com</a> • +34 697 271 661 • 23 years old<br />
+<a href="https://github.com/DiegoAsterio/" class="uri" target="_blank">https://github.com/DiegoAsterio/</a><br />
+Calle honda del realejo, 30 - Granada, Spain</p>
+</blockquote>
+<hr />
+<h2 id="education">Education</h2>
+<dl>
+<dt>2011-2013</dt>
+<dd><strong>High School degree</strong>; LAUDE el Altillo School (Jerez)
+</dd>
+<dt>2013-2019 (expected)</dt>
+<dd><p><strong>BSc, Computer Science and Mathematics</strong>; University of Granada (Granada)</p>
+<p><em>Minor: Artificial intelligence</em></p>
+<p><em>Spent a semester in UPMC (Paris VI)</em></p>
+</dd>
+</dl>
+<h2 id="skills">Skills</h2>
+<p>I am fluent in Spanish(native), French(C1) and English(C2).</p>
+<p>I have been coding and investigating about technology for about 7 years now. Thus I am familiar with development tools and production environment.</p>
+<p>I look forward to writing better code each day. That is code that is easy to understand, maintain and extend.</p>
+<p>Ability to reason about contiguous and linked data structures.</p>
+<p>I have proven my knowledge in several programming competitions.</p>
+<p>I am used to GNU/Linux environments. I have set up Debian, Arch and Slackware based systems and feel comfortable with them.</p>
+<p>I am familiar with the workflow that is usual when a version control system (VCS) is used . Namely I have been working with git almost since I started programming.</p>
+<p>I have experience with several Python libraries, which I have used for different purposes: Django, lxml, matplotlib, numpy, requests, etc.</p>
+<h2 id="other-skills">Other skills</h2>
+<p>Experience with de DevOps philosophy/methodology: automation, testing, containerization (Docker), orchestration, etc.</p>
+<p>Some knowledge about security and cryptography, both thoretical (thanks to my major in mathematics) and practical (OpenSSL and proxmark3).</p>
+<h2 id="experience">Experience</h2>
+<p><strong>Math and computer science private teacher:</strong></p>
+<p>I have been a private teacher for undergraduate and high school subjects. My students where always very happy with my work and succeeded in their tests.</p>
+<h2 id="technical-experience">Technical Experience</h2>
+<dl>
+<dt>Histogram of Gradient descriptor</dt>
+<dd>Implemented a computer vision descriptor following the original paper by <a href="https://hal.inria.fr/file/index/docid/548512/filename/hog_cvpr2005.pdf" target="_blank">Navneet Dalas and Bill Triggs</a>. <a href="https://github.com/DiegoAsterio/HOG" target="_blank">Our implementation</a> was tested on the inria dataset. It let us identify walking people with high accuracy.
+</dd>
+<dt>Conrad’s game of life</dt>
+<dd>Developed a game of life to create animations.
+</dd>
+<dt>Programming Languages</dt>
+<dd><strong>python:</strong> I have been programming in python for the last four years. Most of the <a href="https://github.com/DiegoAsterio/speedy-Gonzales" target="_blank">projects</a> I have developed in python were machine learning oriented. I am also interested in web development and know the basics of the docker philosophy.
+</dd>
+<dd><p><strong>c++:</strong> This was my mother language in programming and feel comfortable programming in it. I have a thorough knowledge of the standard library and guideline support library.</p>
+</dd>
+<dd><p><strong>haskell:</strong> Currently studying haskell for my undergraduate final project. I intend to develop a classification of finite algebras by using quiver theory.</p>
+</dd>
+<dd><p>Basic knowledge of <strong>C</strong>, <strong>x86 assembly</strong>, <strong>ruby</strong>, <strong>sql</strong>, <strong>javascript</strong></p>
+</dd>
+</dl>
+<h2 id="accomplishments">Accomplishments</h2>
+<p>I have obtained several recognitions and prizes to my academic trajectory.</p>
+<p>Ranked 799 worldwide in 2018 <a href="https://github.com/DiegoAsterio/KIFI-CODE2018" target="_blank">Google’s Hashcode</a>.</p>
+<p>Published a combinatory paper for the Cadiz math congress in 2017.</p>
+<hr />
+</body>
+</html>
